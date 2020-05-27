@@ -8,6 +8,5 @@ $lottoBtn.onclick = function () {
     res.push(lottoNum);
   }
   res.sort( (a,b) => a-b);
-  console.log(res.join());
   $span.innerHTML = res.join();
 }
